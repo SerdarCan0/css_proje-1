@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Roboto Mono', monospace; }
+    body {background-color: grey;}
+    #navbar {
+      display: flex;
+      background-color: #EE1C25;
+      justify-content: space-between;
+      align-items: center;
+      
+      
+    }
+
+    .container #navbar img {width: 140px; margin-left: 40px;}
+    
+
+    #navbar ul {list-style-type: none;}
+    #navbar h1 {padding-right: 200px; font-size: 2.5rem; color: #fff;}
+    
+    #navbar ul  {display: flex; }
+    #navbar ul li a {text-decoration: none; color: white; font-size: 1.8rem; padding: 15px ;margin: 20px; transition: background-color 0.15s;}
+    #navbar ul li a:hover {background-color: #EEA29A; border-radius: 7px; }
+    .items1 {margin-left: 500px; margin-top: 20px; padding: 20px; background-color: #BCB6C0; width: 490px; margin-bottom: 40px;}
+    .item1:hover {box-shadow: 10px 5px 10px 0.6px; padding-bottom: 20px;}
+    .items1 .item1 img {width: 450px;}
+    .item1 {transition: box-shadow 0.15s; }
+    .items1 .item1 .item-name {margin-top: 20px; margin-left: 5px;font-size: 1.5rem; text-align: left; }
+    .items1 .item1 .item-information {padding-top: 16px;}
+
+    .items2 .item2 img  {width: 450px;}
+    .items2 {margin-left: 500px; padding: 20px; background-color: #BCB6C0; width: 490px; margin-bottom: 40px;}
+    .items2 .item2 .item-name {margin-top: 20px; margin-left: 5px; font-size: 1.5rem; text-align: left;}
+    .items2 .item2 .item-information {padding-top: 16px;}
+    .items2 .item2 {transition: box-shadow 0.15s;}
+    .items2 .item2:hover {box-shadow: 10px 5px 10px 0.6px; padding-bottom: 20px;}
+    .big-heading {text-align: center; padding-top: 20px;font-size: 3rem;}
+
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="navbar">
+      <img src="./images/pizza-logo-design_9845-319.jpg" alt="logo">
+      <h1>Kopernik Pizza</h1>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="menu.html">Menümüz</a></li>
+        <li><a href="contact.html">Bizimle Çalışın</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <h1 class="big-heading">Menü</h1>
+  <div class="items1">
+    <div class="item1"><img src="./images/pizza-item1.jpg" alt="pizza-item">
+      <p class="item-name">Sucuklu Kaşarlı Pizza</p>
+      <p class="item-information">İnce hamur üstüne pizza sosu mozarella peyniri ve sucuk.</p>
+    </div>
+   
+     
+  </div>
+
+  <div class="items2">
+   <div class="item2">
+    <img src="./images/pizza-margarita.jpg" alt="">
+    <p class="item-name">Margarita Pizza</p>
+    <p class="item-information">İnce hamur üstüne pizza sosu mozarella peyniri felseğen ve cherry domates.</p>
+   </div>
+  </div>
+ 
+</body>
+</html>

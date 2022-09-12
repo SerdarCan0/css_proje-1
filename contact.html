@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Roboto Mono', monospace;}
+   html {background-color: grey;}
+    #navbar {
+      display: flex;
+      background-color: #EE1C25;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+
+    .container #navbar img {width: 140px; margin-left: 40px;}
+    
+
+    #navbar ul {list-style-type: none;}
+    #navbar h1 {padding-right: 200px; font-size: 2.5rem; color: #fff;}
+    
+    #navbar ul  {display: flex; }
+    #navbar ul li a {text-decoration: none; color: white; font-size: 1.8rem; padding: 15px ;margin: 20px; transition: background-color 0.15s;}
+    #navbar ul li a:hover {background-color: #EEA29A; border-radius: 7px; }
+    .form {width: 800px; background-color: #FC7233; margin: auto; margin-top:15px; border-radius: 9px; padding-top:20px; padding-bottom: 20px;}
+    input,textarea {width: 750px; margin-left: 25px; font-size: 1.75rem;padding: 7px; border-radius: 9px; margin-bottom: 5px;}
+    .form h1 {text-align: center; margin-bottom: 16px; color:black; font-size: 2.5rem;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="navbar">
+      <img src="./images/pizza-logo-design_9845-319.jpg" alt="logo">
+      <h1>Kopernik Pizza</h1>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="menu.html">Menümüz</a></li>
+        <li><a href="contact.html">Bizimle Çalışın</a></li>
+      </ul>
+    </div>
+  </div>
+  
+   <div class="form">
+    <h1>Bizimle Çalışmak İçin Formu Doldurun</h1>
+    <table><tr>
+    <td><input type="text" placeholder="adınız"></td>
+  </tr>
+  <tr><td><input type="email" placeholder="email adresiniz"></td></tr>
+  <tr><td><input type="password" placeholder="çalışmak istediğiniz pozisyon"></td></tr>
+  <tr><td><textarea name="" id="" cols="30" rows="10" placeholder="varsa iş deneyiminiz"></textarea></td></tr>
+</table></div> 
+</body>
+</html>
